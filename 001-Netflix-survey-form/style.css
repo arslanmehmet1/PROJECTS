@@ -1,0 +1,10 @@
+body{
+    background-image: url(./img/background_image.jpg);
+    color: white;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 10px 100px;
+    height: 800px;
+}
