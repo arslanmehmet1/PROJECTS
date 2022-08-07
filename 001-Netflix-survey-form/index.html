@@ -7,6 +7,9 @@
     <title>NETFLİX</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="./img/netflix.svg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Lobster&family=Square+Peg&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -22,22 +25,22 @@
       <div class="surveyform">
         <form action="result.html">
           <div class="box">
-            <label for="login_name" class="form4">Name</label><br />
+            <label for="login_name">Name</label><br>
             <input type="text" name="Name" id="login_name" placeholder="Enter your name"/><br/>
           </div>
 
           <div class="box">
-            <label for="age" class="form4">Age</label><br />
+            <label for="age">Age</label><br />
             <input type="number" name="Age" id="age" placeholder="Age" /><br />
           </div>
 
           <div class="box">
-            <label for="login_email" class="form4">Email</label><br />
+            <label for="login_email">Email</label><br />
             <input type="email" name="Email" id="login_email" placeholder="enter your email"/><br/>
           </div>
 
           <div class="box">
-            <label for="content" class="form4">Content type</label><br />
+            <label for="content">Content type</label><br />
             <select name="Content Type" id="content">
               <option disabled selected value="">Please select content type</option>
               <option value="Series">Series</option>
@@ -58,11 +61,11 @@
 
           <div class="box">
             <label>Gender</label><br />
-            <input type="radio" name="Male" id="male" />
+            <input type="radio" name="Gender" id="male" />
             <label for="male">Male</label><br />
-            <input type="radio" name="Female" id="female" />
+            <input type="radio" name="Gender" id="female" />
             <label for="female">Female</label><br />
-            <input type="radio" name="Other" id="other" />
+            <input type="radio" name="Gender" id="other" />
             <label for="other">Other</label><br />
           </div>
 
@@ -71,8 +74,8 @@
             <textarea name="Feedback" id="fb" cols="30" rows="10" placeholder="Any comment"></textarea>
           </div>
 
-          <div class="box">
-            <input type="submit" value="Submit" />
+          <div class="box" id="submit2">
+            <input type="submit" value="Submit" id="submit"/>
           </div>
         </form>
       </div>
